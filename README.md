@@ -1,4 +1,9 @@
 ### Hi there 👋
+#Guillaume Beysson
+##Stagiaire développeur web et web mobile
+###(☞ﾟヮﾟ)☞ 06 28 76 19 24 ☜(ﾟヮﾟ☜)
+###📧guillaume.beysson@gmail.com
+
 
 <!--
 **guillaumebeysson/guillaumebeysson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
