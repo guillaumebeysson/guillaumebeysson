@@ -1,8 +1,8 @@
 ### Hi there 👋
-#Guillaume Beysson
-##Stagiaire développeur web et web mobile
-###(☞ﾟヮﾟ)☞ 06 28 76 19 24 ☜(ﾟヮﾟ☜)
-###📧guillaume.beysson@gmail.com
+# Guillaume Beysson
+## Stagiaire développeur web et web mobile
+### (☞ﾟヮﾟ)☞ 06 28 76 19 24 ☜(ﾟヮﾟ☜)
+### 📧guillaume.beysson@gmail.com
 
 
 <!--
