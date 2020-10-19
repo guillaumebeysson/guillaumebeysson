@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "pixelart";
+    src: url("../ressource/police/poxel/poxel-font.ttf");
+  }
+  
+h1 {
+    padding-top: 15px;
+    font-size: 100px;
+    font-family: "pixelart";
+    margin-top: 0;
+  } 
+
+h2{
+  font-size: 50px;
+  font-family: 'Calibri';
+}
+
+header{
+  text-align: center;
+  }
+
+body{
+  background-image: url("../ressource/image/fond2.jpg"); /*image de fond du site*/
+  padding: 0;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#filtreblanc{
+  background:rgba(255, 255, 255, 0.85);
+}
+
+section{
+    width: 340px; /*largeur des cartes*/
+    /*background-color: rgb(240, 243, 214); /*couleur de fond des cartes*/
+    margin: 50px; /*marge extérieure*/
+    padding: 20px; /*marge intérieure entre le bord et le texte*/
+    border-radius: 10px; /*coins arrondis*/
+    box-shadow: 8px 8px 8px #aaa; /*ombre sur les cartes*/
+    border:silver solid 1px;  
+    background-color: rgba(231, 225, 225, 0.5);
+}
+
+#experiencesprofessionnelles{
+  /*background-color: rgb(253, 122, 15); /*couleur de fond des cartes*/
+  border-radius: 5px; /*coins arrondis*/
+  /*box-shadow: 4px 4px 4px #aaa; /*ombre sur les cartes*/
+  padding: 5px;
+}
+
+#competencestechniques{
+  /*background-color: rgb(253, 122, 15); /*couleur de fond des cartes*/
+  border-radius: 5px; /*coins arrondis*/
+  /*box-shadow: 4px 4px 4px #aaa; /*ombre sur les cartes*/
+  padding: 5px;
+}
+
+#formations{
+  /*background-color: rgb(253, 122, 15); /*couleur de fond des cartes*/
+  border-radius: 5px; /*coins arrondis*/
+  /*box-shadow: 4px 4px 4px #aaa; /*ombre sur les cartes*/
+  padding: 5px;
+}
+
+#colonnes{
+    font-family: 'Calibri';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#donneesperso{
+  text-align: end;
+}
+
+#qualiteshumaines{
+  text-align: left;
+}
+
+#culture{
+  text-align: end;
+}
+
+#sports{
+  text-align: left;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+/*utilisation de la police*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*tout le texte dans header est centré*/
+header{
+    text-align: center;
+}
+
+/*taille de la police de h1=400*/
+h1{
+    font-weight: 400;
+}
+
+/*tous les p ont une taille de 200*/
+p{
+    font-weight: 200;
+}
+
+
+body {
+    background-image: url("../images/fond.jpg"); /*image de fond du site*/
+    background-attachment: fixed; /*image de fond du site est fixée*/
+    background-size: auto;
+}
+
+/*on appelle toutes les classes carte*/
+.carte{
+    width: 340px; /*largeur des cartes*/
+    background-color: rgb(240, 243, 214); /*couleur de fond des cartes*/
+    margin: 50px; /*marge extérieure*/
+    padding: 20px; /*marge intérieure entre le bord et le texte*/
+    border-radius: 10px; /*coins arrondis*/
+    box-shadow: 8px 8px 8px #aaa; /*ombre sur les cartes*/
+    
+}
+
+/*on appelle toutes les classes content*/
+.content{
+    display: flex; /*aligne les cartes horizontalement*/
+    justify-content: center; /*justifié le texte*/
+    align-items: center; /*centrer les cartes*/
+    flex-wrap: wrap; /*les cartes sont sur une seule ligne*/
+    
+}
+
+/*on appelle toutes les id supervisor*/
+#supervisor{
+border-top: Cyan solid 3px; /*ligne au bord haut de la carte couleur cyan, en trait plein, 3px*/
+}
+
+/**/
+#teambuilder{
+border-top: Red solid 3px; /*ligne au bord haut de la carte couleur red, en trait plein, 3px*/
+}
+
+/**/
+#karma{
+border-top: Orange solid 3px; /*ligne au bord haut de la carte couleur orange, en trait plein, 3px*/
+}
+
+/**/
+#calculator{
+border-top: darkblue solid 3px; /* ligne au bord haut de la carte couleur darkblue, en trait plein, 3px*/
+}
+
+/*on appelle toutes les images qui sont dans les cartes*/
+.carte img{
+    display: block; /*dire que les images sont des blocs*/
+    margin-left: auto; /*marge à gauche en auto*/
+    margin-right: 0; /*marge à droite 0 pour qu'il se déplace vers la droite*/
+}
