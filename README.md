@@ -4,7 +4,7 @@
 ### (☞ﾟヮﾟ)☞ 06 28 76 19 24 ☜(ﾟヮﾟ☜)
 ### 📧guillaume.beysson@gmail.com
 
-
+![computer](computer.jpg)
 <!--
 **guillaumebeysson/guillaumebeysson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
