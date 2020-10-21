@@ -1,0 +1,124 @@
+body {
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-image: url("/images/fond.jpg");
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    margin: 30px;
+}
+
+h2 {
+    margin: 30px;
+}
+
+#day {
+    color: hsl(71, 73%, 54%);
+    margin: 30px;
+    font-size: 20px;
+}
+
+#gain {
+    color: hsl(218, 22%, 67%);
+    margin: 30px;
+}
+
+#left {
+    color: white;
+    background-color: cadetblue;
+}
+
+#signup {
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px #aaa;
+    grid-template-areas: 
+    'up up'
+    '_left _right';
+}
+
+#up {
+    border-radius: 10px 10px 0 0;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: rgb(243, 241, 241);
+    padding-top: 3%;
+    box-shadow: 8px 8px 8px #aaa;
+    grid-area: up;
+}
+
+#left {
+    border-radius: 0 0 0 10px;
+    grid-column: 1 / 2;
+    grid-row: 2;
+    box-shadow: 8px 8px 8px #aaa;
+    grid-area: _left;
+}
+
+#right {
+    color: white;
+    background-color: rgb(122, 211, 214);
+    grid-column: 2 / 3;
+    grid-row: 2;
+    border-radius: 0 0 10px 0;
+    box-shadow: 8px 8px 8px #aaa;
+    grid-area: _right;
+}
+
+#textright {
+    color: hsl(204, 43%, 93%);
+}
+
+p{
+    margin: 30px;
+}
+
+div{
+    margin: 30px;
+}
+
+footer {
+    font-family: 'Karla', sans-serif;
+    color: grey;
+}
+
+strong {
+    font-size: 50px;
+}
+
+
+@media (max-width: 1200px) {
+    body {
+        width: 80%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "up"
+        "_left"
+        "_right";
+    }
+
+    #left {
+        border-radius: 0;
+    } 
+
+    #right {
+        border-bottom-left-radius: 10px;
+    }
+}
