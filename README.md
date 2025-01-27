@@ -1,6 +1,6 @@
 ### Hi there 👋
 # Guillaume BEYSSON
-## Développeur web et web mobile
+## Développeur Full-Stack Java/Angular
 ### (☞ﾟヮﾟ)☞ 06 28 76 19 24 ☜(ﾟヮﾟ☜)
 ### 📧guillaume.beysson@gmail.com
 
