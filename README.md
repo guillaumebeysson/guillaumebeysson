@@ -1,5 +1,5 @@
 ### Hi there 👋
-# Guillaume Beysson
+# Guillaume BEYSSON
 ## Développeur web et web mobile
 ### (☞ﾟヮﾟ)☞ 06 28 76 19 24 ☜(ﾟヮﾟ☜)
 ### 📧guillaume.beysson@gmail.com
